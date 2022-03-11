@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar .navbar-nav {
+    margin-left: 80px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #132B50;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.navbar .btn-login {
+    font-size: 14px;
+    color: #2E37A4;
+    border-color: #2E37A4;
+    border-radius: 60px;
+    padding: 5px 30px;
+}
+
+.navbar .btn-login:hover {
+    background-color: #2E37A4;
+    color: #fff;
+    transition: ease-in 0.2s;
+}
+
+.navbar .btn-login i {
+    margin-right: 10px;
+}
+
+.navbar a {
+    margin-right: 10px;
+}
+
+.navbar .btn-regist {
+    font-size: 14px;
+    color: #fff;
+    background-color: #2E37A4;
+    border-radius: 60px;
+    padding: 5px 30px;
+}
+
+.navbar .btn-regist i {
+    margin-right: 10px;
+}
+/* End Navigation Bar */
+
+.home {
+    padding: 100px 0px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #132B50;
+}
+
+.home .lead {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #7186A0;
+}
+
+/* Course Class */
+.course-class .title-course-class {
+    font-size: 18px;
+    color: #132B50;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.course-class .see-more {
+    color: #36C2CF;
+    text-decoration: none;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.course-class .see-more:hover {
+    color: #7186A0;
+}
+
+.course-class .course-class-items {
+    text-decoration: none;
+}
+
+.course-class .card {
+    border-radius: 20px;
+    border: none;
+}
+
+.course-class .card .card-img-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.course-class .platform-course {
+    color: #7186A0;
+    font-size: 14px;
+}
+
+.course-class .platform-course .img-course {
+    margin-top: -40px;
+    border: 2px solid #fff;
+}
+
+.course-class .card .card-text {
+    color: #132B50;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.course-class .card .price-course {
+    color: #7186A0;
+    font-size: 14px;
+}
+
+.course-class .card hr {
+    color: #aeaeae;
+}
+
+.course-class .card .footer-course {
+    font-size: 14px;
+    color: #7186A0;
+}
+
+/* Roadmap */
+.roadmap .title-roadmap {
+    color: #132B50;
+    font-size: 36px;
+    font-weight: 700;
+    align-content: center;
+    justify-content: center;
+}
+
+.roadmap .title-roadmap-items {
+    font-size: 18px;
+    color: #132B50;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.roadmap .lead-roadmap {
+    color: #7186A0;
+    font-size: 14px;
+}
+
+/* Join Now */
+.join-now {
+    background-color: #F2F7FC;
+}
+
+.join-now .title-join-now {
+    font-size: 36px;
+    font-weight: 700;
+    color: #132B50;
+}
+
+.join-now .btn-join {
+    background-color: #2E37A4;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+
+.join-now .btn-join:hover {
+    color: #132B50;
+    background-color: #fff;
+    transition: all ease-in-out 0.35s;
+}
+
+.join-now .card {
+    background-color: #F2F7FC;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.join-now .card .count-value {
+    font-size: 36px;
+    color: #2E37A4;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.join-now .card .mark-count {
+    font-size: 14px;
+    margin-top: -10px;
+    color: #7186A0;
+}
