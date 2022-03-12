@@ -200,3 +200,134 @@ body {
     margin-top: -10px;
     color: #7186A0;
 }
+
+/* footer */
+footer {
+    background-color: #2E37A4;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 14px;
+}
+
+/* Course */
+.breadcumb .card {
+    border: 1px solid #F2F7FC;
+    border-radius: 40px;
+    margin: 50px 0px;
+}
+
+.breadcumb nav {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.breadcumb nav a {
+    color: #132B50;
+    text-decoration: none;
+}
+
+/* Section Course */
+.course {
+    margin-bottom: 50px;
+}
+
+.course .title-course {
+    font-size: 36px;
+    color: #132B50;
+    font-weight: 700;
+}
+
+.course .lead-course {
+    color: #7186A0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.course .course-class-items {
+    text-decoration: none;
+}
+
+.course .card {
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+}
+
+.course .sort-filter {
+    padding: 20px;
+}
+
+.course .card .title-sort {
+    font-size: 24px;
+    font-weight: 700;
+    color: #132B50;
+}
+
+.course .card .title-sort img {
+    margin-right: 10px;
+}
+
+.course .card .card-img-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.course .card label {
+    color: #132B50;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.course .card select {
+    border-radius: 20px;
+    color: #7186A0;
+}
+
+.course .card .btn-reset {
+    color: #2E37A4;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-right: 60px;
+}
+
+.course .card .btn-reset:hover {
+    color: #fff;
+    background-color: #2E37A4;
+    transition: all ease-in-out 0.3s;
+}
+
+.course .card .btn-view {
+    background-color: #2E37A4;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.course .platform-course {
+    color: #7186A0;
+    font-size: 14px;
+}
+
+.course .platform-course .img-course {
+    margin-top: -40px;
+    border: 2px solid #fff;
+}
+
+.course .card .card-text {
+    color: #132B50;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.course .card .price-course {
+    color: #7186A0;
+    font-size: 14px;
+}
+
+.course .card hr {
+    color: #aeaeae;
+}
+
+.course .card .footer-course {
+    font-size: 14px;
+    color: #7186A0;
+}
